@@ -7,19 +7,20 @@
     android:orientation="horizontal"
     tools:context="com.example.sudorafa.androidexerciciofragments.view.MainActivity">
 
-    <fragment
-        android:id="@+id/fragmentList"
-        android:name="com.example.sudorafa.androidexerciciofragments.view.ListStudentFragment"
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPagerListStudent"
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:layout_weight="1" />
+        android:layout_weight="1">
+
+    </android.support.v4.view.ViewPager>
 
     <FrameLayout
         android:id="@+id/edit"
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:layout_weight="2"
-        >
+        android:layout_weight="2">
+
     </FrameLayout>
 
 </LinearLayout>

@@ -69,8 +69,4 @@ public class ListStudentFragment extends Fragment {
         }
     }
 
-    public interface ClickStudentListener{
-        void studentClicked(Student student);
-    }
-
 }

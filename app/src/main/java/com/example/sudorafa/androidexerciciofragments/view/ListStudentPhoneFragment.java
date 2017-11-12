@@ -68,9 +68,4 @@ public class ListStudentPhoneFragment extends Fragment {
             listener.studentClicked(student);
         }
     }
-
-    public interface ClickStudentListener{
-        void studentClicked(Student student);
-    }
-
 }

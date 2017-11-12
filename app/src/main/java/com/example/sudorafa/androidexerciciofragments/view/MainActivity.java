@@ -17,7 +17,7 @@ import org.parceler.Parcels;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class MainActivity extends AppCompatActivity implements ListStudentFragment.ClickStudentListener {
+public class MainActivity extends AppCompatActivity implements ClickStudentListener {
 
     @BindView(R.id.viewPagerListStudent)
     ViewPager mViewPagerListStudent;

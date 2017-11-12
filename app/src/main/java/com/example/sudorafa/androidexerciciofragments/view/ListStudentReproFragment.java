@@ -68,9 +68,4 @@ public class ListStudentReproFragment extends Fragment {
             listener.studentClicked(student);
         }
     }
-
-    public interface ClickStudentListener{
-        void studentClicked(Student student);
-    }
-
 }
