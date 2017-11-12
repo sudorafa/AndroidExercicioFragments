@@ -8,4 +8,7 @@
     <string name="email">Email:</string>
     <string name="name">Nome:</string>
     <string name="save">Salvar</string>
+    <string name="listStudent">Lista Geral</string>
+    <string name="listPhone">Lista Phone</string>
+    <string name="listReproo">Lista Reprovadis</string>
 </resources>
